@@ -35,8 +35,8 @@ if (isset($_POST['submit']) || isset($_SESSION['update_success'])) {
     $admission = mysqli_query($conn, "SELECT * FROM tbl_admissions WHERE username = '$username'");
     $numrow_admission = mysqli_num_rows($admission);
     
-    $teacher = mysqli_query($conn, "SELECT * FROM tbl_teachers WHERE username = '$username'");
-    $numrow_teacher = mysqli_num_rows($teacher);
+    // $teacher = mysqli_query($conn, "SELECT * FROM tbl_teachers WHERE username = '$username'");
+    // $numrow_teacher = mysqli_num_rows($teacher);
     
     $adviser = mysqli_query($conn, "SELECT * FROM tbl_adviser WHERE username = '$username'");
     $numrow_adviser = mysqli_num_rows($adviser);

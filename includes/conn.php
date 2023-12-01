@@ -8,7 +8,7 @@
     $server = 'localhost';
     $username = 'root';
     $password = '';
-    $db = 'bed_taguig';
+    $db = 'bedtag';
 
     $conn = new mysqli($server, $username, $password, $db);
 

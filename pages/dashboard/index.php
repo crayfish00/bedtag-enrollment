@@ -65,7 +65,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-user-check"></i>
                       </div>
-                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "../student/list.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/list.enrolled.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -86,7 +87,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-exclamation-triangle"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/list.pending.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -107,7 +109,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-users"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/list.new.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -128,7 +131,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-users"></i>
                       </div>
-                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/list.old.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -149,7 +153,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-user-times"></i>
                       </div>
-                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "../student/list.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/list.disapproved.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                   </div>
                   <!-- ./col -->
@@ -170,7 +175,8 @@ require '../../includes/session.php';
                       <div class="icon">
                         <i class="fas fa-globe"></i>
                       </div>
-                      <a href="<?php echo $_SESSION['role']== "Registrar" ? "../student/list.students.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                      <!-- Roles -->
+                      <a href="<?php echo $_SESSION['role']== "Super Administrator" || $_SESSION['role']== "Registrar" || $_SESSION['role']== "Principal" || $_SESSION['role']== "Accounting" || $_SESSION['role']== "Admission" || $_SESSION['role']== "Adviser" || $_SESSION['role']== "Teacher" ? "../dashboard/online.inquiries.php" : "#"?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a> 
                     </div>
                   </div>
                   <!-- ./col -->
