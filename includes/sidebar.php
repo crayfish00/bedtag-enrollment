@@ -371,7 +371,6 @@
               </p>
             </a>
           </li>
-          
           <?php
             } elseif ($_SESSION['role'] == "Principal") { 
           ?>
